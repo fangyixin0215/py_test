@@ -1,0 +1,1 @@
+python index2array.py C:\Users\mac\Desktop\img
