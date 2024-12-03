@@ -16,14 +16,15 @@ print(zhaoshang_interest)#招行利息
 wenzhou_interest = 594.17+594.17+555.83+594.17+(402.5+172.5)+594.17;
 print(wenzhou_interest)#温行利息
 ############################################################################################################################
-print("佳佳的:")
-print(15000)#佳佳的
+#print("佳佳的:")
+#print(15000)#佳佳的
 print("------------------------------------------------------------")
-print("我的总共：")
-print(myfee_wihtout_interest+zhaoshang_interest+wenzhou_interest)
+print("记录在账的总共：")
+total_in_record = myfee_wihtout_interest+zhaoshang_interest+wenzhou_interest;
+print(total_in_record)
 print("------------------------------------------------------------")
-print("总共：")
-print(myfee_wihtout_interest+zhaoshang_interest+wenzhou_interest+15000)
+#print("总共：")
+#print(myfee_wihtout_interest+zhaoshang_interest+wenzhou_interest+15000)
 print("------------------------------------------------------------")
 def getStringFromNumber(size,value):
         """
@@ -51,5 +52,18 @@ def getStringFromNumber(size,value):
         return val
 #或者50的hex值
 print("未记录入账的：")
-print(3318+5000+2122.2+908.33+575+200+1400-10000-2000+5730+5000-(17800-2698.98-4430.33-2122.2)+10000+2849.58-4000)
+not_in_record = 3318+5000+2122.2+909+575+200+1400-10000-2000+5730+5000-(17800-2698.98-4430.33-2122.2)+10000+2849.58-4000-5000-2000+800+2480+1000-5000+358+1800-6000+2500-8000+9426.63
+print(not_in_record)
+
+print("拍拍帮还：")
+Oct_paipai = 229.49+9455.95+266.01+6755.24+4170.78;
+print(Oct_paipai) #20877.47
+
+#10月帮还招行贷和抖音
+Oct_zhaoAndTiktok = 31.21+2091.49+2709.33
+print("10月帮还招行贷和抖音帮还：")
+print(Oct_zhaoAndTiktok)
+
+print("总共欠款：")                                              #6000这个现金欠了比较久 濛濛Excel里也有记录
+print(total_in_record+not_in_record+Oct_paipai+Oct_zhaoAndTiktok+6000)
 getStringFromNumber(1,50)
